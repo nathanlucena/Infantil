@@ -1,0 +1,86 @@
+
+.Body{
+    display: flex;
+    justify-content: center;
+   
+    padding-top: 9rem;
+    width: 100vw;
+
+
+    background-image: url("../../images/BabyBackground.svg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+.Horse{
+    width: 20rem;
+    transform: scaleX(-1);
+    padding-top: 4rem;
+    padding-right: 7rem;
+}
+
+.MainBox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-left: 8rem;
+}
+
+.MainText{ 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    
+}
+
+.Tittle{
+    font-size: 3rem;
+    font-weight: 400; 
+    padding: 0.5rem; 
+}
+
+.Description{
+    padding: 1rem;
+    padding-bottom: 4rem;
+}
+
+
+
+
+.Mainbutton{
+    display: inline;
+    position: relative;
+   }
+   
+
+.BackButton1{
+    width: 10rem;   
+}
+
+.PinkButton{
+    position: absolute;
+    left: -0.5rem;
+    top: -0.5rem;
+
+    letter-spacing: .1rem;
+
+    width: 10.1rem;
+    height: 3.1rem;
+    
+    background-color: #FF90FB;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color:#fff;
+}
+    
+.PinkButton:hover{
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    transition: 0.4s;
+}
